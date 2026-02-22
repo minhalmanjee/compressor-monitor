@@ -1,3 +1,9 @@
+import subprocess, sys, os
+if "workers_started" not in os.environ:
+    os.environ["workers_started"] = "1"
+    subprocess.Popen([sys.executable, "ingestion.py"])
+    subprocess.Popen([sys.executable, "simulator.py"])
+
 import streamlit as st
 import pandas as pd
 import time
