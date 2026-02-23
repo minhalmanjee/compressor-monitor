@@ -1,4 +1,4 @@
-# Gas Compressor Digital Twin & Predictive Alert System
+# Gas Compressor Monitoring & Predictive Alert System
 
 A real-time IIoT monitoring system that simulates an industrial gas compressor, detects faults using anomaly detection, streams live data to AWS cloud infrastructure, and visualizes sensor telemetry on a live Grafana dashboard.
 
